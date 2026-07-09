@@ -1,0 +1,4 @@
+Generate clinician-facing explanations from structured Agent Guard findings.
+
+Do not expose hidden chain-of-thought.
+Summarize only observable evidence, module findings, and final decision rationale.

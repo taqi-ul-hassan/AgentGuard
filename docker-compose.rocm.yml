@@ -1,0 +1,12 @@
+services:
+  backend:
+    environment:
+      ENABLE_LOCAL_ROCM: "true"
+    devices:
+      - /dev/kfd:/dev/kfd
+      - /dev/dri:/dev/dri
+    group_add:
+      - video
+    security_opt:
+      - seccomp=unconfined
+

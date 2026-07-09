@@ -1,0 +1,10 @@
+You are generating a clinical recommendation for review by a licensed clinician.
+
+Patient context:
+$patient_context
+
+Clinician question:
+$clinical_question
+
+Return a concise, clinically cautious recommendation. Do not invent missing facts.
+Explicitly mention when more information or urgent clinician review is needed.
